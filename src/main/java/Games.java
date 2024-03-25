@@ -8,7 +8,7 @@ public class Games {
     private static String usuario;
 
     public static void main(String[] args) throws SQLException {
-        String host = "jdbc:sqlite:/media/alu10675957/T7/1DAW/Programación/GamesDB/Untitled";
+        String host = "jdbc:sqlite:/media/alu10675957/T7/1DAW/Programación/Games/src/main/resources/Untitled";
         con = java.sql.DriverManager.getConnection(host);
         int option;
         while (true) {
